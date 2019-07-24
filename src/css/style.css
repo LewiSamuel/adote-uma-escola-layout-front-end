@@ -133,3 +133,30 @@ body, html{
     color: #1d5d28;
     margin: 10px auto;
 }
+
+
+.image-perfil{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+}
+
+
+
+.btn-initial{
+    height: 350px;
+    border: 1px solid #1d5d28;
+    display: block;
+    padding-top: 109px;
+    color: #17461f;
+    margin: 10px auto;
+}
+
+.btn-initial:hover{
+    opacity: 0.5;
+    transform: scale(1.07);
+    cursor: pointer;
+}
