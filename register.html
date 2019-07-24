@@ -30,8 +30,9 @@
 
     <header class="padding-verticaly-50">
         <section class="container ">
-            <div class="row">
 
+            <article id="page1">
+            <div class="row">
                 <div class="col s12 m4 center-align">
                     <i style="font-size: 4em;" class="material-icons cor-primary-text">person_outline</i><br>
                     <b>Cidadão</b><br>
@@ -95,9 +96,54 @@
             </div>
             <section class="row">
                 <div class="col s12">
-                    <a href="#!" class="btn btn-large cor-primary right">Próxima etapa</a>
+                    <a href="#!" onclick="$('#page2').show(); $('#page1').hide();" class="btn btn-large cor-primary right">Próxima etapa</a>
                 </div>
             </section>
+            </article>
+
+
+            <article id="page2" style="display: none;">
+                <div class="row">
+                    <div class="col s12 m4 center-align">
+                        <i style="font-size: 4em;" class="material-icons cor-primary-text">person_outline</i><br>
+                        <b>Cidadão</b><br>
+                        <p>Nos ajude a conhecê-lo melhor, fala o envio de alguns documentos e lhe descreva por meio de uma minibiografia!</p>
+                    </div>
+    
+                    <div class="col s12 m4">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">person</i>
+                            <input type="text" name="foto" id="foto">
+                            <label for="foto">Foto (formato 3x4):</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">room</i>
+                            <input type="text" name="residencia" id="residencia">
+                            <label for="residencia">Comprovante de residência:</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">assignment_ind</i>
+                            <input type="text" name="doc" id="doc">
+                            <label for="doc">Documento oficial com foto:</label>
+                        </div>
+                    </div>
+    
+                    <div class="col s12 m4">
+                        <div class="input-field col s12">
+                            <textarea class="materialize-textarea" rows="4" data-length="200" name="bio" id="bio"></textarea>
+                            <label for="bio">Minibiografia:</label>
+                        </div>
+                    </div>
+                </div>
+                <section class="row">
+                    <div class="col s12">
+                        <a href="#!" onclick="$('#page1').show(); $('#page2').hide();" class="btn btn-large btn-flat left">Voltar</a>
+                        <a href="./conclusion-register.html" class="btn btn-large cor-primary right">Concluir</a>
+                    </div>
+                </section>
+                </article>
+
+
 
 
         </section>
