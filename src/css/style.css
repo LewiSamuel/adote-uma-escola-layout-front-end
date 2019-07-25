@@ -160,3 +160,18 @@ body, html{
     transform: scale(1.07);
     cursor: pointer;
 }
+
+
+.image-atividade-card{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+.btn-close-article{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
