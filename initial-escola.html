@@ -146,7 +146,6 @@
 
 
                     <section class="col s12 m6">
-                        <a class="modal-trigger" href="#atividadesPropostas">
                         <article class="btn-initial">
                             <section class="inicial">
                                 <i style="font-size: 6em;" class="fas fa-history "></i>
@@ -154,7 +153,6 @@
                                 <div style="font-variant-caps: all-small-caps;">Atividades propostas</div>
                             </section>
                         </article>
-                        </a>
                     </section>
     
                     <section class="col s12 m6">
@@ -391,68 +389,6 @@
 
 
 
-
-    <div id="atividadesPropostas" class="modal modal-fixed-footer" style="width: 80%;">
-        <div class="modal-content">
-            <b>Atividades Propostas</b>
-            <p style="margin-top: 0;">Visualize aqui as atividades ja propostas as escolas.</p>
-            <hr style="border-color: #f7f7f7;">
-            <section class="row">
-                <div class="col s12 m6 offset-m3">
-                    <ul class="collection">
-                        <li class="collection-item">
-                            Atividade 01 - 01/02/2019
-                            <a href="#!" class="secondary-content left" style="margin-right: 15px;"><i class="material-icons cor-primary-text">insert_drive_file</i></a>
-                        </li>
-                        <li class="collection-item" style="padding: 0 20px;">
-                            <ul class="collection" style="border-color: white;">
-                                <li class="collection-item">
-                                    Promoção do bem-estar
-                                    <a href="#!" class="secondary-content left" style="margin-right: 15px;"><i class="material-icons cor-primary-text">play_arrow</i></a>
-                                </li>
-                                <li class="collection-item">
-                                    Promoção do bem-estar
-                                    <a href="#!" class="secondary-content left" style="margin-right: 15px;"><i class="material-icons cor-primary-text">play_arrow</i></a>
-                                </li>
-                                <li class="collection-item">
-                                    Promoção do bem-estar
-                                    <a href="#!" class="secondary-content left" style="margin-right: 15px;"><i class="material-icons cor-primary-text">play_arrow</i></a>
-                                </li>
-                                <li class="collection-item">
-                                    Promoção do bem-estar
-                                    <a href="#!" class="secondary-content left" style="margin-right: 15px;"><i class="material-icons cor-primary-text">play_arrow</i></a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="collection-item">
-                            Atividade 01 - 01/02/2019
-                            <a href="#!" class="secondary-content left" style="margin-right: 15px;"><i class="material-icons cor-primary-text">insert_drive_file</i></a>
-                        </li>
-                        <li class="collection-item">
-                            Atividade 01 - 01/02/2019
-                            <a href="#!" class="secondary-content left" style="margin-right: 15px;"><i class="material-icons cor-primary-text">insert_drive_file</i></a>
-                        </li>
-                        <li class="collection-item">
-                            Atividade 01 - 01/02/2019
-                            <a href="#!" class="secondary-content left" style="margin-right: 15px;"><i class="material-icons cor-primary-text">insert_drive_file</i></a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">fechar</a>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
     
     <div id="modalDocumentos" class="modal modal-fixed-footer" style="width: 80%;">
         <div class="modal-content">
@@ -460,31 +396,9 @@
             <p style="margin-top: 0;">Visualize aqui os documentos pessoais enviados a nossa plataforma.</p>
             <hr style="border-color: #f7f7f7;">
             <section class="row">
-                <div class="col s12 m6 offset-m3">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">person</i>
-                        <input type="text" name="foto" id="foto">
-                        <label for="foto">Foto (formato 3x4):</label>
-                    </div>
-                    <div class="col s12">
-                        <img src="./src/img/profile/profile.jpeg" alt="image-perfil" class="responsive-img">
-                    </div>
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">room</i>
-                        <input type="text" name="residencia" id="residencia">
-                        <label for="residencia">Comprovante de residência:</label>
-                    </div>
-                    <div class="col s12">
-                        <img src="./src/img/check-mark.png" alt="image-perfil" class="responsive-img">
-                    </div>
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">assignment_ind</i>
-                        <input type="text" name="doc" id="doc">
-                        <label for="doc">Documento oficial com foto:</label>
-                    </div>
-                    <div class="col s12">
-                        <img src="./src/img/check-mark.png" alt="image-perfil" class="responsive-img">
-                    </div>
+                <div class="col s12 input-field">
+                    <small>Links das redes sociais com fotos e vídeos.</small>
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
                 </div>
             </section>
         </div>
