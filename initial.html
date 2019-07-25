@@ -119,6 +119,7 @@
     
     
                     <section class="col s12 m4">
+                        <a class="modal-trigger" href="#ProporAtividade">
                         <article class="btn-initial">
                             <section class="inicial">
                                 <i style="font-size: 6em;" class="fas fa-briefcase "></i>
@@ -126,6 +127,7 @@
                                 <div style="font-variant-caps: all-small-caps;">Propor atividade</div>
                             </section>
                         </article>
+                        </a>
                     </section>
     
                     <section class="col s12 m4">
@@ -363,7 +365,7 @@
 
 
   
-  <div id="modalRelatorioAtividade" class="modal modal-fixed-footer" style="width: 80%;">
+<div id="modalRelatorioAtividade" class="modal modal-fixed-footer" style="width: 80%;">
     <div class="modal-content">
         <b>Relatório de atividade</b>
         <p style="margin-top: 0;">Para encerrar a atividade, precisamos saber como ocorreu a atividade e sua conclusão da mesma.</p>
@@ -384,7 +386,7 @@
     <div class="modal-footer">
         <a href="#!" class="modal-close waves-effect waves-green btn-flat">fechar</a>
     </div>
-    </div>
+</div>
 
 
 
@@ -492,6 +494,98 @@
             <a href="#!" class="modal-close waves-effect waves-green btn-flat">fechar</a>
         </div>
     </div>
+
+
+
+
+
+
+
+    
+  
+
+
+  
+<div id="ProporAtividade" class="modal modal-fixed-footer" style="width: 80%;">
+    <div class="modal-content">
+        <b>Propor atividade</b>
+        <p style="margin-top: 0;">Agora, aplique os conhecimentos adquiridos até este momento na prática.<br>Proponha atividades em escolas públicas objetivando a conscientização contra a corrupção.</p>
+        <hr style="border-color: #f7f7f7;">
+        <section class="row">
+            <div class="col s12 m4">
+                <section class="col s12 input-field">
+                    <select id="ods">
+                        <option value="">2 - Fome zero e Agricultura</option>
+                        <option value="">3 - Saúde e Bem-estar</option>
+                        <option value="">4 - Educação de Qualidade</option>
+                    </select>
+                    <label for="ods">Selecione o ODS:</label>
+                </section>
+                <section class="col s12 input-field">
+                    <input type="number" id="qtdaluno">
+                    <label for="qtdaluno">Quantidade máxima de alunos:</label>
+                </section>
+                <section class="col s12 input-field">
+                    <input type="text" id="tempo">
+                    <label for="tempo">Tempo/Duração:</label>
+                </section>
+            </div>
+            <div class="col s12 m4">
+                <section class="col s12 input-field">
+                    <textarea id="descricao" class="materialize-textarea"></textarea>
+                    <label for="descricao">Descrição da atividade:</label>
+                </section>
+                <section class="col s12 input-field">
+                    <textarea id="infra" class="materialize-textarea"></textarea>
+                    <label for="infra">Infraestrutura necessária:</label>
+                </section>
+                <section class="col s12 input-field">
+                    <textarea id="listaMateriais" class="materialize-textarea"></textarea>
+                    <label for="listaMateriais">Lista de materiais para atividade:</label>
+                </section>
+            </div>
+            <div class="col s12 m4">
+                <section class="col s12 input-field">
+                    <select id="ods">
+                        <option value="">Fundamental - 1º ano</option>
+                        <option value="">Fundamental - 2º ano</option>
+                        <option value="">Fundamental - 3º ano</option>
+                        <option value="">Fundamental - 4º ano</option>
+                        <option value="">Fundamental - 5º ano</option>
+                    </select>
+                    <label for="ods">Público-alvo:</label>
+                </section>
+                <section class="col s12">
+                    <small>Escolas:</small>
+                    <p>
+                    <label>
+                        <input name="group1" type="radio" checked />
+                        <span>Escola 1</span>
+                    </label>
+                    </p>
+                    <p>
+                    <label>
+                        <input name="group1" type="radio"/>
+                        <span>Escola 2</span>
+                    </label>
+                    </p>
+                    <p>
+                    <label>
+                        <input name="group1" type="radio"/>
+                        <span>Escola 3</span>
+                    </label>
+                    </p>
+                </section>
+            </div>
+        </section>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">fechar</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat cor-primary white-text">Enviar atividade</a>
+    </div>
+</div>
+
+
 
 
 
